@@ -1,0 +1,743 @@
+<FORM ACTION="AUS_STARS_PLANNER.planner" METHOD="POST">
+<HTML>
+<HEAD>
+<TITLE>Planner</TITLE>
+<link rel="stylesheet" type="text/css" href="/graphics/css/gui2.css" media = "screen">
+<link rel="stylesheet" type="text/css" href="/graphics/css/print.css" media="print">
+
+		<SCRIPT LANGUAGE="JavaScript">
+		<!-- Begin
+		function StartNewWin(page) {
+		OpenWin = this.open(page, "CtrlWindow", "toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes");
+		}
+		// End -->
+		</SCRIPT>
+  
+</HEAD>
+<BODY onLoad="window.focus()" topmargin="0">
+<div id=ui_container class=student>
+<div id=ui_student_header_container>
+<div id=ui_header_title_container>
+<div id=ui_print_img>
+<img id="ntubwlogo" src="/graphics/css//NTU_BW_LOGO_150DPI.gif" width="160px" alt="" border="0" />
+</div>
+<p id=ui_header_title1>STARS Planner</p>
+<p id=ui_header_title2>Academic Year 2013,Semester 1</p>
+</div>
+</div>
+<div id=ui_nav_container>
+<p id=ui_nav_left></p>
+<p id=ui_nav_right>
+&nbsp;
+<a class="navline" href="javascript:self.close()" onmouseover="window.status='Exit and close window'; return true;" onmouseout="window.status='';return true;"  >Close</font></a>
+</div >
+<div id=ui_body_container>
+<TABLE >
+<tr valign=top>
+<td valign=top>
+<TABLE  align=left border=2 cellspacing=1 cellpadding=2>
+<tr align=center>
+<td bgcolor="#BCBCC8">
+<b><font color=#000080>TIME\DAY</FONT></B>
+</TD>
+<td width=110 bgcolor="#BCBCC8">
+<b><font color=#000080>MON</FONT></B>
+</TD>
+<td width=110 bgcolor="#BCBCC8">
+<b><font color=#000080>TUE</FONT></B>
+</td>
+<td width=110 bgcolor="#BCBCC8">
+<b><font color=#000080>WED</FONT></B>
+</td>
+<td width=110 bgcolor="#BCBCC8">
+<b><font color=#000080>THU</FONT></B>
+</td>
+<td width=110 bgcolor="#BCBCC8">
+<b><font color=#000080>FRI</FONT></B>
+</td>
+<td width=110 bgcolor="#BCBCC8">
+<b><font color=#000080>SAT</FONT></B>
+</td>
+</TR>
+<tr height=30>
+<td bgcolor="#EBFAFF"><font color=#000080>
+0830-0930
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#CAE2EA"><font color=#000080>
+0930-1030
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#EBFAFF"><font color=#000080>
+1030-1130
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#CAE2EA"><font color=#000080>
+1130-1230
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#EBFAFF"><font color=#000080>
+1230-1330
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#CAE2EA"><font color=#000080>
+1330-1430
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#EBFAFF"><font color=#000080>
+1430-1530
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#CAE2EA"><font color=#000080>
+1530-1630
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#EBFAFF"><font color=#000080>
+1630-1730
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#CAE2EA"><font color=#000080>
+1730-1830
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#EBFAFF"><font color=#000080>
+1830-1930
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#CAE2EA"><font color=#000080>
+1930-2030
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#EBFAFF"><font color=#000080>
+2030-2130
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#CAE2EA"><font color=#000080>
+2130-2230
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#CAE2EA"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+<tr height=30>
+<td bgcolor="#EBFAFF"><font color=#000080>
+2230-2330
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+<td bgcolor="#EBFAFF"><font color=#000080>
+&nbsp;
+</font></td>
+</tr>
+</table>
+</td>
+<td valign=top>
+<TABLE >
+<tr valign=top><td>
+<b><font color=#000080>Course</FONT></B>
+</td><td align ="center">
+<b><font color=#000080 size=-2>[Index / Vacancy/ Waitlist]</FONT></B>
+</td></tr>
+<tr><td>
+<b><font color=#000080>CZ2001</FONT></B>
+</TD>
+<td>
+<SELECT NAME="index_nmbr" style="width:130px" style="font-family: Arial" style="font-size: 8pt" onChange=form.boption.value="Update";submit();>
+<OPTION value=>-Select one-
+<OPTION value=10221>10221 / 30 / 0&nbsp
+<OPTION value=10222>10222 / 17 / 0&nbsp
+<OPTION value=10223>10223 / 34 / 0&nbsp
+<OPTION value=10224>10224 / 34 / 0&nbsp
+<OPTION value=10225>10225 / 11 / 0&nbsp
+<OPTION value=10226>10226 / 13 / 0&nbsp
+<OPTION value=10227>10227 / 11 / 0&nbsp
+<OPTION value=10228>10228 / 19 / 0&nbsp
+<OPTION value=10229>10229 / 13 / 0&nbsp
+<OPTION value=10461>10461 / 35 / 0&nbsp
+<OPTION value=10481>10481 / 35 / 0&nbsp
+<OPTION value=10568>10568 / 0 / 0&nbsp
+</select></td></tr>
+<tr><td>
+<b><font color=#000080>CZ2002</FONT></B>
+</TD>
+<td>
+<SELECT NAME="index_nmbr" style="width:130px" style="font-family: Arial" style="font-size: 8pt" onChange=form.boption.value="Update";submit();>
+<OPTION value=>-Select one-
+<OPTION value=10231>10231 / 17 / 0&nbsp
+<OPTION value=10232>10232 / 26 / 0&nbsp
+<OPTION value=10233>10233 / 20 / 0&nbsp
+<OPTION value=10234>10234 / 20 / 0&nbsp
+<OPTION value=10235>10235 / 3 / 0&nbsp
+<OPTION value=10236>10236 / 20 / 0&nbsp
+<OPTION value=10237>10237 / 14 / 0&nbsp
+<OPTION value=10238>10238 / 18 / 0&nbsp
+<OPTION value=10239>10239 / 18 / 0&nbsp
+<OPTION value=10462>10462 / 1 / 0&nbsp
+<OPTION value=10482>10482 / 29 / 0&nbsp
+<OPTION value=10595>10595 / 0 / 0&nbsp
+<OPTION value=10601>10601 / 0 / 0&nbsp
+</select></td></tr>
+<tr><td>
+<b><font color=#000080>CZ2004</FONT></B>
+</TD>
+<td>
+<SELECT NAME="index_nmbr" style="width:130px" style="font-family: Arial" style="font-size: 8pt" onChange=form.boption.value="Update";submit();>
+<OPTION value=>-Select one-
+<OPTION value=10251>10251 / 25 / 0&nbsp
+<OPTION value=10252>10252 / 20 / 0&nbsp
+<OPTION value=10253>10253 / 19 / 0&nbsp
+<OPTION value=10254>10254 / 22 / 0&nbsp
+<OPTION value=10483>10483 / 18 / 0&nbsp
+<OPTION value=10587>10587 / 0 / 0&nbsp
+</select></td></tr>
+<tr><td>
+<b><font color=#000080>CZ2005</FONT></B>
+</TD>
+<td>
+<SELECT NAME="index_nmbr" style="width:130px" style="font-family: Arial" style="font-size: 8pt" onChange=form.boption.value="Update";submit();>
+<OPTION value=>-Select one-
+<OPTION value=10261>10261 / 11 / 0&nbsp
+<OPTION value=10262>10262 / 14 / 0&nbsp
+<OPTION value=10263>10263 / 1 / 0&nbsp
+<OPTION value=10264>10264 / 2 / 0&nbsp
+<OPTION value=10265>10265 / 0 / 0&nbsp
+<OPTION value=10484>10484 / 15 / 0&nbsp
+<OPTION value=10567>10567 / 0 / 0&nbsp
+<OPTION value=10588>10588 / 0 / 0&nbsp
+<OPTION value=10596>10596 / 0 / 0&nbsp
+<OPTION value=10603>10603 / 0 / 0&nbsp
+<OPTION value=10613>10613 / 0 / 0&nbsp
+</select></td></tr>
+<tr><td>
+<b><font color=#000080>CZ2006</FONT></B>
+</TD>
+<td>
+<SELECT NAME="index_nmbr" style="width:130px" style="font-family: Arial" style="font-size: 8pt" onChange=form.boption.value="Update";submit();>
+<OPTION value=>-Select one-
+<OPTION value=10271>10271 / 13 / 0&nbsp
+<OPTION value=10272>10272 / 3 / 0&nbsp
+<OPTION value=10273>10273 / 6 / 0&nbsp
+<OPTION value=10274>10274 / 7 / 0&nbsp
+<OPTION value=10275>10275 / 10 / 0&nbsp
+<OPTION value=10602>10602 / 0 / 0&nbsp
+<OPTION value=10609>10609 / 0 / 0&nbsp
+</select></td></tr>
+<tr><td>
+<b><font color=#000080>HW0210</FONT></B>
+</TD>
+<td>
+<SELECT NAME="index_nmbr" style="width:130px" style="font-family: Arial" style="font-size: 8pt" onChange=form.boption.value="Update";submit();>
+<OPTION value=>-Select one-
+<OPTION value=10361>10361 / 5 / 0&nbsp
+<OPTION value=10362>10362 / 3 / 0&nbsp
+<OPTION value=10363>10363 / 3 / 0&nbsp
+<OPTION value=10364>10364 / 0 / 0&nbsp
+<OPTION value=10365>10365 / 3 / 0&nbsp
+<OPTION value=10366>10366 / 2 / 0&nbsp
+<OPTION value=10367>10367 / 6 / 0&nbsp
+<OPTION value=10368>10368 / 4 / 0&nbsp
+</select></td></tr>
+<tr><td>
+<b><font color=#000080>CZ0002</FONT></B>
+</TD>
+<td>
+<SELECT NAME="index_nmbr" style="width:130px" style="font-family: Arial" style="font-size: 8pt" onChange=form.boption.value="Update";submit();>
+<OPTION value=>-Select one-
+<OPTION value=10050>10050 / 15 / 0&nbsp
+</select></td></tr>
+<tr><td>
+<b><font color=#000080>MH2100</FONT></B>
+</TD>
+<td>
+<SELECT NAME="index_nmbr" style="width:130px" style="font-family: Arial" style="font-size: 8pt" onChange=form.boption.value="Update";submit();>
+<OPTION value=>-Select one-
+<OPTION value=72622>72622 / 4 / 0&nbsp
+<OPTION value=72623>72623 / 10 / 0&nbsp
+<OPTION value=72624>72624 / 11 / 0&nbsp
+<OPTION value=72625>72625 / 24 / 0&nbsp
+<OPTION value=72626>72626 / 24 / 0&nbsp
+<OPTION value=72627>72627 / 0 / 0&nbsp
+<OPTION value=72628>72628 / 0 / 0&nbsp
+<OPTION value=72629>72629 / 0 / 0&nbsp
+<OPTION value=72630>72630 / 24 / 0&nbsp
+<OPTION value=72631>72631 / 24 / 0&nbsp
+<OPTION value=72633>72633 / 2 / 0&nbsp
+</select></td></tr>
+<tr><td>
+<b><font color=#000080>MH3512</FONT></B>
+</TD>
+<td>
+<SELECT NAME="index_nmbr" style="width:130px" style="font-family: Arial" style="font-size: 8pt" onChange=form.boption.value="Update";submit();>
+<OPTION value=>-Select one-
+<OPTION value=72315>72315 / 2 / 1&nbsp
+<OPTION value=72316>72316 / 7 / 1&nbsp
+</select></td></tr>
+<INPUT TYPE="hidden" NAME="index_nmbr" VALUE="">
+<INPUT TYPE="hidden" NAME="index_nmbr" VALUE="">
+<INPUT TYPE="hidden" NAME="index_nmbr" VALUE="">
+<INPUT TYPE="hidden" NAME="index_nmbr" VALUE="">
+<BR>
+<tr>
+<td colspan=2>
+<b><font color=#000080>Exam Schedule</FONT></B>
+<TABLE  border=1>
+<tr align=left><td>
+<font color=#000080 size=-2>
+MH3512 22-NOV-13 0900 1100 
+</font><BR>
+<font color=#000080 size=-2>
+CZ2006 27-NOV-13 0900 1100 
+</font><BR>
+<font color=#000080 size=-2>
+CZ2001 03-DEC-13 0900 1100 
+</font><BR>
+<font color=#000080 size=-2>
+CZ2005 04-DEC-13 0900 1100 
+</font><BR>
+<font color=#000080 size=-2>
+CZ0002 04-DEC-13 1700 1900 
+</font><BR>
+<font color=red size=-2>
+CZ2002 05-DEC-13 0900 1100 
+</font><BR>
+<font color=red size=-2>
+MH2100 05-DEC-13 0900 1100 
+</font><BR>
+<font color=#000080 size=-2>
+CZ2004 06-DEC-13 0900 1100 
+</font><BR>
+<font color=#000080 size=-2>
+HW0210    
+</font><BR>
+</tr>
+</TABLE>
+</td></tr>
+<tr>
+<td colspan=2>
+<b><font color=#000080>Legend<BR></FONT></B>
+<font color=red size=-2>
+RED : CLASH!!!
+</font>
+<BR>
+</font>
+<font color=#000080 size=-2>
+NOTE: Course without weekly<BR> information is conducted<BR> Wk1-13
+</font>
+</td></tr>
+<tr>
+<td colspan=2>
+<script>
+function fcheckform(form) {
+        var i;
+        var j=0;
+        var ans;
+        
+			   ans = window.confirm("Save as Plan "+form.plan_no.value+"?");
+				 if (ans==true) 
+				  { 
+	         return true; 
+	  		  } 
+				 else 
+				  { 
+          return false;
+				  }               
+				}   
+      
+</script>
+<script>
+function fcheckform1(form) {
+        var i;
+        var j=0;
+        var ans;
+
+          if (form.plan_no.value==1 && form.plan1_exists.value=="N") 
+           {
+            window.alert("Plan 1 data not found!");
+            return false;
+           } 
+
+          if (form.plan_no.value==2 && form.plan2_exists.value=="N") 
+           {
+            window.alert("Plan 2 data not found!");
+            return false;
+           } 
+
+          if (form.plan_no.value==3 && form.plan3_exists.value=="N")  /*15min save3*/
+           {
+            window.alert("Plan 3 data not found!");
+            return false;
+           } 
+        
+			   ans = window.confirm("Load Plan "+form.plan_no.value+"?");
+				 if (ans==true) 
+				  { 
+	         return true; 
+	  		  } 
+				 else 
+				  { 
+          return false;
+				  }               
+				}   
+      
+</script>
+<SELECT NAME="plan_no" style="width:65px" style="font-size: 8pt">
+<OPTION SELECTED value=1>Plan 1
+<OPTION value=2>Plan 2
+<OPTION value=3>Plan 3
+</select>
+<INPUT style="width:45px" style="font-size: 8pt" TYPE="button" VALUE="Load" OnClick="if (fcheckform1(this.form)) {this.form.action='AUS_STARS_PLANNER.load_time_table';submit()}">
+<INPUT style="width:45px" style="font-size: 8pt" TYPE="button" VALUE="Save" OnClick="if (fcheckform(this.form)) {this.form.action='AUS_STARS_PLANNER.save_time_table';submit()}">
+<BR>
+<INPUT style="width:160px" style="font-size: 8pt" TYPE="button" VALUE="Back to Main" OnClick="this.form.action='AUS_STARS_PLANNER.time_table';
+         submit()">
+<BR>
+<INPUT style="width:160px" style="font-size: 8pt" TYPE="button" VALUE="Printable Page" onClick="window.open('/pls/webexe/AUS_STARS_PLANNER.planner?p1=NTU_U1220912K&p2=148DFB3F394429CE&student_type=F&acad=2013&semester=1&subj_code=CZ2001&subj_code=CZ2002&subj_code=CZ2004&subj_code=CZ2005&subj_code=CZ2006&subj_code=HW0210&subj_code=CZ0002&subj_code=MH2100&subj_code=MH3512&subj_code=&subj_code=&subj_code=&subj_code=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&subj_type=&subj_type=&subj_type=&subj_type=&subj_type=&subj_type=&subj_type=&subj_type=&subj_type=&subj_type=&subj_type=&subj_type=&subj_type=&class_info=&plan_no=&plan1_exists=N&plan2_exists=N&plan3_exists=N&boption=Preview','Win','height=600,width=950,toolbar=yes,menubar=yes,resizable=yes,directories=no,scrollbars=yes,status=yes')">
+<BR>
+<INPUT style=" width:160px" style="font-size: 8pt" TYPE="button" VALUE="Add Course(s) into STARS" onClick="window.open('AUS_STARS_REG.reg_sub?p1=NTU_U1220912K&p2=148DFB3F394429CE&subj_code=CZ2001&subj_code=CZ2002&subj_code=CZ2004&subj_code=CZ2005&subj_code=CZ2006&subj_code=HW0210&subj_code=CZ0002&subj_code=MH2100&subj_code=MH3512&subj_code=&subj_code=&subj_code=&subj_code=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&index_nmbr=&boption=28-JUN-2013 09:14:59','Win','height=600,width=800,toolbar=no,menubar=no,resizable=yes,directories=no,scrollbars=yes,status=yes')">
+<BR><BR>
+<font color=#000080 size=-2><B> Quick Links :  </B>
+<BR>
+For admission to Modern Language<BR>Elective Level 1 (L%9001 series) <BR>courses, students must <A HREF="#1" NAME="1" onClick="window.open('https://sso.wis.ntu.edu.sg/webexe88/ntlm/sso_express.asp?app=https://wish.wis.ntu.edu.sg/webexe/owa/aus_stars_main.declare_modern_lang2',
+         'updWin','height=600,width=750,toolbar=yes,menubar=no,resizable=yes,directories=no,scrollbars=yes,status=yes')">declare that<BR>they have no previous study of the<BR>language.</A>
+<BR><BR>
+<A HREF="#1" NAME="1" onClick="window.open('https://sso.wis.ntu.edu.sg/webexe88/owa/sso_redirect.asp?t=1&app=https://wish.wis.ntu.edu.sg/webexe/owa/aus_stars_check.check_subject_web2',
+         'updWin','height=600,width=750,toolbar=yes,menubar=no,resizable=yes,directories=no,scrollbars=yes,status=yes')">Check Course Registered</A>
+<BR><BR>
+To de-register Courses, e-swopping, <BR>etc. please access <A HREF="#1" NAME="1" onClick="window.open('https://sso.wis.ntu.edu.sg/webexe88/ntlm/sso_express.asp?app=https://wish.wis.ntu.edu.sg/webexe/owa/aus_stars_main.menu',
+         'updWin','height=600,width=750,toolbar=yes,menubar=no,resizable=yes,directories=no,scrollbars=yes,status=yes')">STARS</A>
+</font>
+</td></tr>
+</TABLE>
+</td>
+</tr>
+</div>
+<div id=ui_footer_container>
+<p id=ui_footer_left> &copy; 2001-2013 Nanyang Technological University</p>
+<p id=ui_footer_right>
+&nbsp;
+<a class="ui_navline_bottom_links" href="javascript:window.close()" onmouseover="window.status='Exit and close window'; return true;" onmouseout="window.status='';return true;"  >Close</font></a>
+</p>
+</div>
+</div>
+</BODY></HTML>
+</table>
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="CZ2001">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="CZ2002">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="CZ2004">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="CZ2005">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="CZ2006">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="HW0210">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="CZ0002">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="MH2100">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="MH3512">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="">
+<INPUT TYPE="hidden" NAME="subj_code" VALUE="">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="C">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="C">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="C">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="C">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="C">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="C">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="C">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="G">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="G">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="">
+<INPUT TYPE="hidden" NAME="subj_type" VALUE="">
+<INPUT TYPE="hidden" NAME="r_study_yr" VALUE="">
+<INPUT TYPE="hidden" NAME="r_subj_code" VALUE="">
+<INPUT TYPE="hidden" NAME="r_minor" VALUE="">
+<INPUT TYPE="hidden" NAME="boption" VALUE="">
+<INPUT TYPE="hidden" NAME="acad" VALUE="2013">
+<INPUT TYPE="hidden" NAME="semester" VALUE="1">
+<INPUT TYPE="hidden" NAME="p1" VALUE="NTU_U1220912K">
+<INPUT TYPE="hidden" NAME="p2" VALUE="148DFB3F394429CE">
+<INPUT TYPE="hidden" NAME="student_type" VALUE="F">
+<INPUT TYPE="hidden" NAME="r_course_code" VALUE="CSC">
+<INPUT TYPE="hidden" NAME="r_course_yr" VALUE="2">
+<INPUT TYPE="hidden" NAME="r_special" VALUE="">
+<INPUT TYPE="hidden" NAME="class_info" VALUE="">
+<INPUT TYPE="hidden" NAME="plan1_exists" VALUE="N">
+<INPUT TYPE="hidden" NAME="plan2_exists" VALUE="N">
+<INPUT TYPE="hidden" NAME="plan3_exists" VALUE="N">
+<INPUT TYPE="hidden" NAME="option_select" VALUE="">
+</FORM>
+</center>

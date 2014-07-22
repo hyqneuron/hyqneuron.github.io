@@ -1,0 +1,27 @@
+*{ margin:0;padding:0; }
+html{
+	background-color:white;
+}
+body{
+	width:700px;
+	margin:auto;
+	background-color:#fafafa;
+	margin-left: solid 1px #888;
+	margin-right: solid 1px #888;
+}
+.TopHeader{
+	text-align:center;
+}
+.NavBut{
+	width:130px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	border-radius:8px;
+	display:inline-block;
+	background-color: #eee;
+	cursor:pointer;
+}
+.NavBut:hover {
+	background-color: green;
+}
