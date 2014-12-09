@@ -325,7 +325,7 @@ function Init()
 function XML()
 {
 	var req = new XMLHttpRequest();
-	var url = "https://wish.wis.ntu.edu.sg/webexe/owa/AUS_SCHEDULE.main_display1?staff_access=false&acadsem=2014;1&r_subj_code="+
+	var url = "https://wish.wis.ntu.edu.sg/webexe/owa/AUS_SCHEDULE.main_display1?staff_access=false&acadsem=2014;2&r_subj_code="+
 		id("coursecode").value+"&boption=Search&r_search_type=F";
 	var query="select * from html where url='"+url+"'";
 	var requrl = "http://query.yahooapis.com/v1/public/yql?q="+encodeURIComponent(query);
