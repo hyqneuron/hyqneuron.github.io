@@ -356,7 +356,7 @@ function XML()
 				var index = columns[0].textContent;
 				var m = 0;
 				// open new group
-				if(!isNaN(index)){
+				if(!isNaN(parseInt(index))){
 					if(group!=0)course.groups.push(group);
 					group = new Group();
 					group.course = course;
