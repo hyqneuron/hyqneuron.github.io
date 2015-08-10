@@ -363,6 +363,7 @@ function XML()
 					group.index = parseInt(index);
 					m=1;
 				}
+                m=1; // updated version has proper alignment
 				session = new Session();
 				session.type  = columns[0+m].textContent;
 				session.group = columns[1+m].textContent;
