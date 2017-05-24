@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Hou Yunqing</title>
+<meta name="description" content="Personal webpage of a person obsessed with thinking.">
+<script type="text/javascript" src="cssjs/index.js"></script>
+<link rel="stylesheet" type="text/css" href="cssjs/index.css">
+<!--Google Analytics-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34211626-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+
+
+<!--BODY=================================-->
+<!--
+body has the following divs:
+#body_menu
+	.m_button
+	.m_button
+	.m_button
+#body_main
+	.panel
+		.section
+		.section
+		.section
+	.panel
+	.panel
+#body_footer
+
+panel tag has zero indentation.
+First level of indentation starts from children of panels
+Section level is section and section title
+Third level and above is section content.
+-->
+
+
+<body>
+
+<div id="body_menu">
+	<div class="m_button" onmouseover="POV(this)" onmouseout="POT(this)" onclick="PanelSwitch('p_mis')" id="m_mis">Hou Yunqing</div>
+	<div class="m_button" onmouseover="POV(this)" onmouseout="POT(this)" onclick="PanelSwitch('p_cs')" id="m_cs">Computer Stuff</div>
+	<div class="m_button" onmouseover="POV(this)" onmouseout="POT(this)" onclick="PanelSwitch('p_ideas')" id="m_ideas">Ideas</div>
+</div><!--body_menu-->
+
+
+
+<div id="body_main">
+
+
+<!--Panel Miscellaneous-->
+<!--Panel Miscellaneous-->
+<!--Panel Miscellaneous-->
+<!--Panel Miscellaneous-->
+<!--Panel Miscellaneous-->
+<div id="p_mis" class="panel">
+
+	<h2 class="panel_title">Hou Yunqing</h2>
+
+	<div class="section section_notop">
+		<img src="img/hyq_kyf.jpg" style="margin:10px; float:left; border-radius:10px;" width=180 />
+		<div style="height:20px; width: 10px"></div>
+		<p>If thinking is to the mind what eating is to the body, then my mind must be obese. I am a Computer Science student at Nanyang Technological University, Singapore.</p>
+
+		<div style="height:5px; width: 10px"></div>
+		<p>Keywords: ANN, equilibrium, evolution, human behaviour</p>
+
+		<div style="height:5px; width: 10px"></div>
+		<p class="latexembeder"><em>Contact</em>: h<span style="display:none">lalalalala</span>yq.<input type="hidden" />neu<span>ron</span>@gma<span>il.c</span>om</p>
+
+		<div style="clear:both"></div>
+	</div><!--section mis.1-->
+
+	<div class="section">
+	<p><em>Intellectual interests</em>: </p>
+	<ul>
+		<li>Machine learning, artificial neural networks</li>
+		<li>Human behavior; game theory; evolution, cooperation and altriusm</li>
+		<li>Some neuroscience/theoretical neuroscience, neural basis of emotion and decision</li>
+		<li>Philosophy of mind, some epistemology, ethics and Buddhist philosophy</li>
+		<li>Virtual reality </li>
+		<li>Mathematics and Physics</li>
+		<li>Some economics</li>
+	</ul>
+ 
+ <p>Despite (or because of) the many interests that I have, I am not quite knowledgeable in any of them. What I do have is an endless thirst for interesting ideas, and I sometimes satisfy that thirst by making up immature theories of my own. Sometimes, though, my excessive intellectual curiosity brings me trouble... so I'm still learning to keep it under control.</p>
+	</div><!--section mis.2-->
+
+	<div class="section">
+ <p><em>Miscellaneous</em>: I like Bach, and I'm always whistling wherever I go. </p>
+ 
+ <p>A few of the many movies that I enjoyed:</p>
+ <ul>
+  <li>Charlie Wilson's War</li>
+  <li>Matrix Triology</li>
+  <li>Forrest Gump</li>
+  <li>Leon: The Professional</li>
+ </ul>
+ <p>My favorite novel: <a href="http://zh.wikipedia.org/wiki/%E6%B4%BB%E7%9D%80"><img src="img/huozhe.gif" /></a>(English: <a href="http://en.wikipedia.org/wiki/To_Live"><i>To Live</i></a>)</p>
+ <p>My home town: <a href="http://en.wikipedia.org/wiki/Zhuzhou">Zhuzhou</a>, Hunan, China</p>
+	</div><!--section mis.3-->
+</div><!--panel_misc-->
+
+
+
+<!--Panel computer stuffs-->
+<!--Panel computer stuffs-->
+<!--Panel computer stuffs-->
+<!--Panel computer stuffs-->
+<!--Panel computer stuffs-->
+<div id="p_cs" class="panel">
+
+	<h2 class="panel_title">Computer Stuffs</h2>
+
+	<div class="section section_notop">
+		<p><em>Artificial Neural Networks</em>: thinking about how the mind works has been a passion of mine since the age of 14. Over the years I've had a lot of ideas, theories and models, and also spent some time studying <a href="http://en.wikipedia.org/wiki/Artificial_neural_network">Artificial Neural Networks</a>. As of now, I'm exploring </p>
+		<ul>
+		 <li>competitive learning, ICA, Minimum Entropy Coding, Predictability Minimization
+		 <li>unsupervised learning with temporal guidance (of which SFA is a form)
+		 <li>non-hierarchical net on top of hierarchical, deep nets
+		</ul>
+		<p>Recently I've been trying to put Predictability Minimization and temporal guidance into a probabilistically coherent framework. But my work on ANN has always been intermittent, so I'm not sure I'll ever have something to publish.</p>
+	
+		<div class="colla_display latexembeder" style="display:none">
+			<p>I can list my ideas in chronological order, but it will take a hell lot of time. The simplest way to tell my story is this: I independently discovered a lot of things that have already been done :(</p>
+			<p>Anyway, here are some random bits:</p>
+			<p class="colla_itemheader">Backpropagation, intuitively explained</p>
+			<p>To put it bluntly, backpropagation is basically a finger-pointing process.</p>
+			<p>We can consider a network with a single output unit (O), a hidden layer (H), and an input layer (I). Now, let's think of O as the boss of a company who is trying to make some decision. The people in H are O's assistants, and the people in I are the unskilled workers who simply gather data.</p>
+			<p>In the forward pass, each of O's assistants are supposed to give the boss some advice. The assistants have different views on the data provided by I, so they assign different weightage to each member in I and make use of the data they provide differently.</p>
+			<p>When the advice reaches the boss, the boss trusts the advice of some of his assistants more than that of the others. So some of the assistants' advice has a greater effect on the boss's decision, and others' have less. If the boss's decision goes wrong, he would blame more on the assistants that he trusted, and less on the assistants whose advice he did not heed much (okay, this doesn't sound like how things work in the office. But truth is that the trusted assistants had a greater influence in leading the boss to a mistake, so they should be blamed first). And if his decision turned out to be pretty good, he would attribute his success more to the people he trusted and less to the people that he did not trust.This is error propagation.</p>
+			<p>Now, as for weight correction, we can think of it this way: if I am the boss, and an assistant made a very loud advice, and he turned out to be wrong, I should trust him less. On the other hand, if an assistant made a wrong advice, but indicated that he was not certain that his advice was correct by giving a small magnitude to his advice, I should not reduce my trust in this assistant by very much. It works similarly if the assistant's advice turned out to be correct. My trust in the assistant is affected by the correctness of his advice, and by the confidence with which he gave his advice.</p>
+			<p class="colla_itemheader">Intuitive explanation for momentum</p>
+			<p>I'll continue with the finger-pointing explanation of backpropagation above. If you're the boss, you don't want to trust too much an assistant who happened to get things right because of luck. Instead, you want to take consistency into consideration. If an assistant performs consistently well, you'll trust him more. And if his performance is quite unstable, then maybe you don't want to trust him much.
+			<p>How to tell if an assistant got lucky, or if he actually is doing some fantastic work? Add noise to your data. Because of momentum, the lucky assistants will get lost in the noise, while the truly performing assistants will stand out. How much noise? Not so much as to distort beyond recognition the pattern that your assistant is supposed to recognize, otherwise everyone would have to rely on luck.</p>
+			<p>Also, momentum would be most effective if the data vectors presented to the network in temporal proximity contain some invariant property. Think of it this way: you're looking for vehicles in images, and you have an assistant who knows a lot about tanks but not so much about sedans. If you throw random data vectors at the network, the performance of the tank expert is going to be very stable - he always gives a loud advice when he sees a tank and mutes himself when he doesn't - but the momentum is never going to grow, because he never gets to score multiple times in a row!</p>
+			<p>This is why I want to train my network with frames of a carefully produced video, not some random data vectors.</p>
+			<p class="colla_itemheader">What is pattern?</p>
+			<p>From what I've seen, few people in the machine learning community have been bothered to ask this question. We have a bunch of training vectors, and the patterns lie within, isn't that right?</p>
+			<p>Yes, we know the patterns are in there, and we sometimes give them labels. But is it not interesting, that the patterns are there in the first place? How have we animals come to be able to recognize patterns? What are patterns, really?</p>
+			<p>These questions look stupid, but since I've always enjoyed asking and answering stupid questions, I'm going ahead anyway: to me, pattern is something that remains constant when all else is changing.</p>
+			<p>When you are asked to look for a pattern in a bunch of seemingly very different objects, you are expected to come up with a rule that can be applied to all those objects. This sort of "pattern hunt" is a game we all have played when we were children. The target objects may be very very different, so they're the "changes"; while the applicability of a fixed rule is always there, so it is the "pattern".</p>
+			<p>So, if pattern is constancy amid change, how can we capture it? We pay attention to what does not change. Hmm, no, not really. Here's a better way: the things that appear in our senses leave a mark in our mind, and they wear off with time. But when they have appeared frequently enough, the marks accumulate, to such an extent that they can't be wiped out, and a pattern is formed in our head.</p>
+			<p>Now, let's move back to image recognition. If we throw 512 by 512 images at a network and expect it to capture the "constancy", we'll have a problem: the same vector may never appear twice, so there is no constancy to be captured! Really? Not really. You need just a few more things, and constancy would start appearing: downsampling, smaller receptive fields, and a hierarchy of receptive fields.</p>
+			<p>Grouping, linear separability, covariance/correlation...</p>
+			<p>TBD</p>
+   
+		</div>
+		<div class=colla_bigbut id="cs_ann" onclick="collaSwitch(this)">Show More</div>
+	</div>
+
+	<div class=section>
+		<p><em>GPGPU</em>: I wrote an assembler for the NVIDIA Fermi generation of <a href="http://en.wikipedia.org/wiki/Graphics_processing_unit">Graphical Processing Units</a> in June 2011. It is named <i>asfermi</i> and is hosted <a href="http://code.google.com/p/asfermi">here</a>. I am interested in <a href="http://en.wikipedia.org/wiki/GPGPU">GPGPU</a> because it greatly reduces the time it takes to run my neural network experiments; and I started this project out of a programmer's obsession with control and performance. Also, I wrote it before I started my university application, so a great part of my motivation came from wanting to impress those admission officers.</p>
+	</div>
+
+	<div class="section">
+		<p><em>Virtual Reality</em>: I received my <a href="http://www.oculusvr.com">Rift HMD</a> a couple of weeks ago and have been experimenting with it. My first app is going to be an HMD panorama viewer. Basically it just lets the user view panorama images in an HMD. But since I'm going to pull Google's <a href="http://www.google.com/streetview">StreetView</a> data, hopefully this app will provide me with a new way to see this world. I'm gonna call this app Explorer in Armchair. So far I've done the HMD tracking and rendering, but proper interfacing with Google StreetView hasn't been done yet. I've had the image source ready since last Novenber, now all that I need is a tiny, portable HTTP GET library. If I can't find one, I might have to write one for myself.</p>
+		<div class=colla_display>
+			<p>My experience with the Rift HMD so far hasn't been perfect; It is acceptable, but far from being good. The resolution of the Rift dev kit is so low that you can clearly see the individual pixels on the screen, and aliasing is very severe with objects such as handrails. Things surely will be better when the consumer version of Rift comes out. But I think we'll need at least 1600p in order to get rid of the pixelation.</p>
+			<p>As for the future of VR? I'm sure in 20 years VR will be as common a thing as smartphones are nowadays. But the road ahead may be long and tortuous. Also, when VR does become a mass-market thing, it probably will come as a combination of VR and augmented reality (AR). AR is much more handier than VR, as has already been demonstrated by Google Glass; but VR has much greater power and potential, in the sense that it is the only thing that allows you to programmatically control EVERYTHING you see.</p>
+			<p>In short, our consumer-level technology isn't there yet. But the trend has started, and there's no turning back.</p>
+		</div>
+		<div class=colla_bigbut id="cs_vr" onclick="collaSwitch(this)">Show More</div>
+	</div>
+	
+	<div class=section>
+		<p><em>Brewing</em>: here's a list of some of the projects I've been thinking about: </p>
+		</p>A real GUI terminal: Start off in a browser (e.g. Chrome), SSH to a server, and you get a terminal in your browser. Many tools already do this (Secure Shell in Chrome). Now, take things a bit further by parsing the output of certain commands, treating them as "HTML" and apply "CSS" on it. When the terminal "understands" the output, two things can happen. First, we can change the way output is displayed. Second, we can allow the user to interact with the output in meaningful and interesting ways. At the highest level, two ideas are behind this project. First, if a terminal understands the output of certain commands, it can do more interesting things with it. Second, we can combine the unadulterated efficiency of CLI with the ease and convenience of a modern GUI. Think of going from a plain text editor to a fully fledged IDE like VIM or Visual Studio. That's what it's supposed to be.</p>
+	</div>
+
+</div><!--panel_CS-->
+
+
+
+<!--Panel Ideas-->
+<!--Panel Ideas-->
+<!--Panel Ideas-->
+<!--Panel Ideas-->
+<!--Panel Ideas-->
+<div id="p_ideas" class="panel">
+	<h2 class="panel_title">Ideas</h2>
+	<div class="section section_notop">
+		<p>I am against the notion of absolute knowledge. The way that human knowledge is acquired is systematically incompatible with absolute knowledge. Instead, I choose simply to believe in certain things when there is sufficient justification.
+		<!--p>The first belief (prediction, if you prefer) that I would like to mention is that, in enough time, mankind will evolve towards a form of altruism untainted by moralistic principles, and that love will be the principal force that bonds and shapes society (oops, now I see how long the proof can go... nevermind, I'll just state it without giving substantiation. But it's basically something very similar to <a href="http://en.wikipedia.org/wiki/Evolutionarily_stable_strategy">Evolutionarily Stable State/Strategy</a>. If you are interested in evolution and altruism, you're always welcome to email me) </p-->
+	</div>
+
+	<div class="section">
+		<p><em>Economics</em></p>
+		<div class="colla_display latexembeder" style="display:none">
+			<p class="colla_itemheader">Economy, Pragmatism, and Development of Altruism</p>
+			<ol>
+				<li>Positive correlation between the development of economy and increase in altruistic behavior</li>
+				<li>The better off the people are, the less the marginal cost of altruistic behavior</li>
+				<li>Pure altruist cannot invade a population of non-altruists; pragmatic altruist, however, can, especially when the economy has developed to such a state that the cost of altruism is less than the potential benefit. Subsequently, a population of pragmatic altruists can be invaded by pure altruists. So, in a way, pragmatic altruists pave the way for the rise of the pure altruist, and a population of pure altruists probably can't be invaded...</li>
+			</ol>
+			<hr />
+			<p class="colla_itemheader">Tendency, Structure, Change and Equilibrium</p>
+			<p>Let me first list some related work by others:</p>
+			<ul>
+				<li><i>Evolution and the Theory of Games</i> by John Maynard Smith. This is a great book, the best I've seen so far.</li>
+				<li><i>Micromotives and Macrobehavior</i> by Thomas Schelling
+				<li><i>Emergence - from Chaos to Order</i> by John Henry Holland
+			</ul>
+			<q>The hallmark of emergence is the sense of much coming from little</q> - John Henry Holland
+			<p>In analyzing a lot of things, I have found it extremely helpful to first understand what the natural tendency, and the accompanying instability, of the system in question is. Once that is understood, we can figure out if the present state of the system is stable, i.e. in equilibrium. If the system is not in equilibrium, we can predict in which way the system is going to move by looking at its natural tendency.</p>
+			<p>For example, I, as a person, have the natural tendency to do things that make me happy. If my happiness level is represented by the letter H, then I can say that I am an organism with the natural tendency to maximize H. As a highly developed, intelligent organism, I am able to perform both short-term and long-term maximization. However, in seeking short-term maximization, I usually have to forgo long-term maximization, and vice versa. Therefore, 
+
+
+
+			<hr />
+			<p class="colla_itemheader">Incentive Accumulation - why some things don't work when they should</p>
+			<pre>
+In most universities around the world, before a semester starts, the students usually have choose the classes they want to take in the coming semester. The same is true in my school. The problem we have here, however, is that our online class registration system sucks. As a result, the process of course registration has become a kind of physical exercise: sometimes, it takes real stamina to get just the courses you want, because of the so many trials that are needed to ensure that the specific time slots you have chosen for your classes do not clash with each other.
+
+All that we needed was a course planner that is capable of automatically scheduling our classes in such a way that clash is guaranteed to be eliminated, and that in case of unresolvable conflict the courses to which we have given higher priority are chosen first.
+
+Such a course planner would not involve any difficult algorithm, because the size of the search space is quite practical. Actually, I would see it as the kind of problem that smart kids in secondary schools should be perfectly capable of solving. But the interesting thing is: here in a university, nobody has done that yet!
+
+It's not that there isn't a real need for such a programme. Every time before semester starts you would see students on social networking websites complaining about the abhorring task that is course registration. Some of them get so frustrated by the process that you will see swear words coming out of their status updates.
+
+So, the problem isn't so hard to solve, and the need for a solution is real, but why has no one done it yet? 
+
+I think the answer probably lies in incentive: there is a failure of incentive build-up here in my university. You see, building such a software programme isn't so hard, but it would require a lot of time. In my case, because of the way I value my time, I wouldn't be willing to write such a programme without someone paying me at least one thousand bucks. But on the other hand, if someone else were to tell me that he has a planner programme that does just what I need, I would not hesitate to pay him 10 to 15 bucks just to be able to use his planner programme.
+
+My school, being quite a large one, has around 20,000 undergraduate students. If, on average, that one out of ten students is willing to pay for such a programme, and that the average amount they are willing to pay is one dollar, then right there we have a 2,000-dollar incentive, which should be enough to encourage the production of more than one sensible planner programme.
+
+Now here's why no one in my school has done it: the 2,000 dollar seems to exist, but it actually does not. Even though there may be 2000 people out there who are willing to pay, on average, one dollar for this programme, nothing exists that will convert those two thousand dollar coins into a single 2,000-dollar cheque. Each of the two thousand people may have some minor incentive to use such a planner programme, but such incentive from the two thousand people does not accumulate to produce total of two thousand dollars that is needed for some people to write a serious planner programme!
+
+Writing... you might want to blame it on the lack of entrepreneurship in my school, but this is actually a phenomenon (failed incentive accumulation) that occurs frequently at a much larger scale, and is one that deserves a more systematic solution. KickStarter.com is a good example of incentive accumulation, but can we go beyond that small-scale stuff? writing... sleeping
+			</pre>
+		</div>
+		<div class=colla_bigbut id="id_econs" onclick="collaSwitch(this)">Show More</div>
+	</div><!--section id.2-->
+
+	<div class="section">
+		<p><em>Neural Stuffs</em></p>
+		<p>While I like my hypotheses a lot, I don't quite like my amatuerish way of doing business, so I've decided to comment out the parts that follow. If you want to read them, please read the HTML source code.</p>
+		<!--
+		<div class="colla_display" style="display:none">
+			<p class="colla_itemheader">Attention</p>
+			<p>"The major inputs to relay cells (of the lateral geniculate nucleus of the cat), in addition to glutamatergic retinal afferents, are GABAergic inputs from local neurons, glutamatergic inputs from layer 6 of the cortex, and ..." - S. Murray Sherman and R.W. Guillery, The role of the thalamus in the flow of information to the cortex.
+
+			<p>What evidence can be better than this, in supporting the idea that attention is a form of competitive equilibrium at the thalamus, and that excessive activity at layer VI is what grabs attention?
+
+			<p>Professor Murray always puts the most important pieces of information together, to the extent that his lack of analysis appears entirely intentional! After all, how could someone who has no clue of what is going on always assemble the right stuff in the right place!
+			<hr />
+			<p class="colla_itemheader"><a href="http://www.nytimes.com/2011/08/21/magazine/do-you-suffer-from-decision-fatigue.html?_r=1&pagewanted=all">Decision Fatigue</a></p>
+			<p>This thing probably has to do with the activity level of the NAcc, amygdala and the thalamus. NAcc should have lowered activity level when a person enters such decision fatigue.  </p>
+			<blockquote>And this isn't the only reason that sweet snacks are featured prominently at the cash register, just when shoppers are depleted after all their decisions in the aisles. With their willpower reduced, they're more likely to yield to any kind of temptation, but they're especially vulnerable to candy and soda and anything else offering a quick hit of sugar. While supermarkets figured this out a long time ago, only recently did researchers discover why.</blockquote>
+			<p>The above paragraph from the article is misleading. I think it is more likely that after some decision fatigue, a person's NAcc activity level is lowered, and the person becomes susceptible to a quick fix. It's more like how drugs work, even though the inhibition/deactivation is not caused by the sweet snacks, the sweet stuffs do serve to quickly increase the level of activity in the NAcc. This also suggests the existence of a level of relativity in NAcc's gating effect: action may be triggered if the associated idea boosts NAcc's level of activity by a certain threshold. In other words, it's not the absolute level of activity that decides whether an idea can pass through the gate, it's by how much it increases the activity in NAcc that is important (competitive equilibrium).
+			</p>
+			<p>There could be 2 gates: thalamus and NAcc. Thalamus may be more related to sleeping, while NAcc to event-specific gating. At the right time the prospect of sleep should increase NAcc's activity level.
+			</p>
+			<hr />
+			<p class="colla_itemheader"><a href="http://www.healthcanal.com/substance-abuse/32223-Scripps-Research-Institute-Scientists-Show-Protein-Linked-Hunger-Also-Implicated-Alcoholism.html">Hunger and Alcoholism, ghrelin and GABA</a></p>
+			<p>Evidence contained in this article may imply that craving is created by inhibiting the NAcc through amygdala-initiated GABA, which may be released through an increase in ghrelin. Decision fatigue may be some similar process: activity in NAcc is first reduced through a certain mechanism, then the person's ability to exert willpower lowers due to the increased threshold in the Gating process. Similarly, I get tired of strenuous mental work after working on it for a long time, and start to have a crave for something fun. This may also be caused by a decrease in NAcc activity level due to such exertion, such that later anything slightly stimulating to the NAcc may easily pass through.
+			</p>
+			<p>But how to differentiate the craving process from that of fear?
+			</p>
+		</div>
+		<div class=colla_bigbut id="id_neural" onclick="collaSwitch(this)">Show More</div>
+		-->
+	</div><!--section idea.3-->
+
+
+
+
+	<div class="section">
+		<p><em>Philosophy</em></p>
+		<div class="colla_display" style="display:none">
+			<p class="colla_itemheader">Random thoughts on qualia</p>
+			<p>Without a formal proof (I do think the following statement is provable using a contradiction resulting from self-referencing understanding/knowledge), my intuition tells me that the existence of human subjective experience is beyond any human comprehension. In other words, I believe there is <i>no reason</i> that we <i>subjectively</i> experience what we experience. Everything there is, be it in objective existence or in our subjective experience, is a miracle.</p>
+			<p>Of course the above belief is not really relevant to the discussion of qualia, I just wanted to write it down :) </p>
+			<p>To be honest, the question on the existence of qualia and its privacy did give me a lot of headache - it is, as other philosophers have put it, a <i>hard</i> problem indeed. In fact, I once went so far as to believe that the existence of qualia is not provable, and that all theories on qualia are simply unfalsifiable. However, I was sure, at the same time, that my subjective experience cannot be described in physical terms. One question, then, arose: how could my physical brain become so convinced that qualia exist, if qualia can't be physically detected?</p>
+			<p>The stuff I made up, in the end, look like this:</p>
+			<ul>
+				<li>The existence of qualia is physically detectable
+				<li>The other properties of qualia are not physically measurable
+			</ul>
+			<p>The above predictions have very bizarre implications, which will require further explanation...</p>
+
+			<p>Anyway, in the end, I think many other things must be settled first before the arguments on qualia may come to a meaningful conclusion. An important question, I think, is this: what does it mean to perceive? (Let's avoid the impossible question of "What is perception?")</p>
+		</div>
+		<div class=colla_bigbut id="id_phil" onclick="collaSwitch(this)">Show More</div>
+	</div><!--section idea.4-->
+
+</div><!--panel_ideas-->
+
+
+</div><!--body_main-->
+
+<div id="body_footer">
+</div><!--body_footer-->
+
+</body>
+</html>
